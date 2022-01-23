@@ -23,12 +23,12 @@ const SWApi = () => {
 
     { console.log('state', starships) }
     return (
-        <div className="columns is-flex-wrap-wrap is-justify-content-center is-mobile cardBody">
+        <div className="cardBody">
             {starships.map((item) => (
-                <div id="card" className="card is-one-fifth shipBody"  key={item.name}>                    
+                <div id="card" className="shipBody"  key={item.name}>                    
                     <div className="card-body">
-                <h3 className="subtitle is-4">MAKE: {item.manufacturer}</h3>
-                <h5 className="title is-4 is-spaced">MODEL: {item.model}</h5>                
+                <h6 className="subtitle">MAKE: {item.manufacturer}</h6>
+                <h7 className="title">MODEL: {item.model}</h7>                
                 <p>CLASS: {item.starship_class}</p>    
                     </div>
         </div>
