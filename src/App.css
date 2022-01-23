@@ -1,0 +1,62 @@
+/* .App{
+
+
+} */
+
+#navBar{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url("https://blenderartists.org/uploads/default/original/3X/e/5/e52e38b9be52c6ebb37a73df1a31478a3988bd6f.jpg");
+  height: 50px;
+}
+
+.Link {
+  color: gold;
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://blenderartists.org/uploads/default/original/3X/e/5/e52e38b9be52c6ebb37a73df1a31478a3988bd6f.jpg");
+  color: gold  
+}
+
+p{
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+}
+
+#card{
+  width: 80%;
+	margin: 0 auto;
+}
+
+.shipBody{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+	width: 100px;
+	height: 200px;
+	text-align: center;
+}
+
+.cardBody{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+}
